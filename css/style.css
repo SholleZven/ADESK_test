@@ -784,18 +784,21 @@ margin-right: 5px;
     border-radius: 0px 12px 12px 12px;
     border: none;
     color:   #FFFFFF;
+    cursor: pointer;
 }
 
 .button_q_and_a:hover {
-    color: #5a5353;
+    color: #FFFFFF;
     border-color: white;
-    background-color: white;
+    background-color:  #0072EC;
+    border-radius: 0px 12px 12px 12px;
 }
 
 .button_q_and_a:focus {
-    color: #5a5353;
+    color: #FFFFFF;
     border: 1px solid rgba(5, 21, 52, 0.3);
-    background-color: white;
+    background-color:  #0072EC;
+    border-radius: 0px 12px 12px 12px;
 }
 
 .answer_buttons_q_and_a{
@@ -832,6 +835,8 @@ margin-right: 5px;
 .q_and_a_with_image{
  display: flex;
  flex-direction: row;
+ overflow: hidden;
+transition: max-height 0.2s ease-out;
 }
 
 .img_q_and_a{
@@ -953,10 +958,6 @@ padding-bottom: 15px;
     color:rgba(255, 255, 255, 0.7);
 }
 
-.footer_bottom {
-  
-  }
-
 .footer_logo_bottom{
     display: flex;
     flex-direction: row;
@@ -1040,7 +1041,7 @@ padding-bottom: 15px;
  
 }
 
-/*...........................................*/
+/*Стили низа подвала*/
 
 .footer_info_bottom{
     display: flex;
@@ -1082,4 +1083,67 @@ padding-bottom: 15px;
 
 .footer_info_bottom__right_img:last-child{
     margin-right: 0px;
+}
+
+/*Стили для скрипта*/
+.button_q_and_a{
+    cursor: pointer; 
+}
+
+.q_and_a_with_image{
+max-height: 0;
+overflow: hidden;
+transition: 0.2s ease-out;
+}
+
+/*Конец стилей для скрипта*/
+
+.answer_buttons_q_and_a_open{
+    margin-left: 194px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.answer_buttons_q_and_a_open p{
+   margin: 0;
+}
+.answer_buttons_q_and_a_open a{
+    color: #0F8FF9;
+ }
+
+.answer_button_q_and_a_open {
+    align-items: center;
+    width: 120%;
+    gap: 10px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    background:  #F9F9F9;
+    border-radius: 12px 0px 12px 12px;
+    color:   #051534;
+}
+
+.q_and_a_button_box_open{
+    padding-bottom: 10px;
+}
+
+.q_and_a_with_image_open{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ overflow: hidden;
+transition: 0.2s ease-out;
+}
+
+.img_q_and_a_open{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    height: 50px;
 }
