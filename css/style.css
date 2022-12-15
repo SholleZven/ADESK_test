@@ -2926,6 +2926,7 @@ transition: 0.2s ease-out;
         vertical-align: middle;
         box-sizing: border-box;
         padding: 10px 20px;
+        font-family: 'Graphik LCG';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -2935,6 +2936,7 @@ transition: 0.2s ease-out;
         border: none;
         color:   #FFFFFF;
         cursor: pointer;
+        text-align: left;
     }
     
     .answer_buttons_q_and_a{
