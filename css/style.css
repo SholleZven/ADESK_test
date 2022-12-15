@@ -1224,12 +1224,12 @@ transition: 0.2s ease-out;
     
     .container {
         margin: 0 auto;
-        width: 708px;
+        width: 100%;
     }
     
     .wide-container {
         margin: 0 auto;
-        min-width: 708px;
+        width: 100%;
     }
     
     .section-heading {
@@ -2765,11 +2765,15 @@ transition: 0.2s ease-out;
     .container_consultation {
         margin-left: auto;
         margin-right: auto;
+        padding-top: 60px;
         width: 92%;
         background-color: #F9F9F9;
     }
     
     .section-heading_consultation{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0;
         padding-top: 0;
         margin-bottom: 50px;
@@ -2782,6 +2786,7 @@ transition: 0.2s ease-out;
     }
     
     .consultation_list {
+        width: 92%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -2794,8 +2799,9 @@ transition: 0.2s ease-out;
         display: flex;
         flex-direction: row;
         margin-bottom: 20px;
-        width: 55%;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 20px;
     }
     
@@ -2811,11 +2817,11 @@ transition: 0.2s ease-out;
         font-size: 30px;
         line-height: 39px;
         margin-right: 20px;
+
     }
     
     .consultation_item p {
         margin: 0;
-        text-align: start;
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
